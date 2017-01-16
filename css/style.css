@@ -87,6 +87,187 @@ input.rounded:focus {
     color: #333;
 }
 
+.leftNav {
+    float: left;
+    width: 225px;
+    border-right: 1px solid #000;
+    min-height: 100%;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.leftNav .logo {
+    width: 120px;
+}
+
+.leftNav h3 {
+    font-size: 18px;
+}
+
+.menu {
+    width: 100%;
+    color: #FFF;
+    background: #1e2a90;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1e2a90, #192cf1);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1e2a90, #192cf1);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1e2a90, #192cf1);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1e2a90, #192cf1);
+    /* Standard syntax */
+}
+
+.menu h4 {
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.rightSide {
+    float: left;
+    width: 84%;
+}
+
+.rightSide .topMenu {
+    height: 170px;
+    background: #1e2a90;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1e2a90, #192cf1);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1e2a90, #192cf1);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1e2a90, #192cf1);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1e2a90, #192cf1);
+    /* Standard syntax */
+    width: 100%;
+    padding: 30px 0px 0px 50px;
+}
+
+.topMenu .heading {
+    font-size: 30px;
+    color: #FFF;
+}
+
+.topMenu p {
+    color: #FFF;
+    float: left;
+    padding-right: 20px;
+    padding-top: 60px;
+}
+
+.topMenu ul {
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 60px;
+}
+
+.topMenu ul li {
+    float: left;
+    list-style: none;
+    color: #FFF;
+    padding: 0px 5px 0px 5px;
+}
+
+.topMenu ul li a {
+    color: #FFF;
+}
+
+.greyBtn {
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}
+
+.greyBtn a {
+    background: #7f7f7f;
+    padding: 10px 20px;
+    color: #FFF;
+}
+
+.greyBtn a:hover {
+    background: #6b6b6b;
+    padding: 10px 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.panel-title {
+    background: #005b9a;
+    color: #FFF;
+    padding: 10px;
+    text-align: left;
+}
+
+.panel-title a,
+.panel-title a:hover {
+    text-decoration: none;
+}
+
+.panel-body ul li {
+    list-style: none;
+    clear: both;
+}
+
+.panel-body ul li a {
+    list-style: none;
+    text-align: left;
+    text-indent: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.menuActive a {
+    background: #d5edf6!important;
+    color: #005b9a!important;
+    float: left;
+    width: 90%;
+}
+
+.menuActive i {
+    background: #d5edf6!important;
+    color: #005b9a!important;
+    float: left;
+    width: 10%;
+    padding: 13px 0px 14px 0px;
+}
+
+.panel-body ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel-group .panel+.panel {
+    margin: 0px;
+}
+
+.panel-heading {
+    padding: 0px;
+}
+
+.panel {
+    border: none;
+}
+
+.panel-default>.panel-heading {
+    border-bottom: 1px solid #FFF;
+}
+
+.panel-body ul li a:hover,
+.panel-body ul li a {
+    background: #0191c8;
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+
 @media only screen and (max-width: 992px) {
     body {
         background-image: url('../images/mhmpbg1.jpg');
